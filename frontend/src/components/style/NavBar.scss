@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: center;
+
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    height: 18vh;
+    background-color: rgba(0, 0, 6, 1);
+
+    img {
+      transform: scale(0.95);
+      height: 18vh;
+    }
+    img:hover {
+      transform: scale(1);
+    }
+  }
+}
